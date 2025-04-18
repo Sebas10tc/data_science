@@ -13,16 +13,27 @@ El proyecto se divide en varias etapas, abarcando la importación y limpieza de 
 ## Estructura del Proyecto
 
 ├── analisis_de_tiendas.ipynb:      Notebook de Jupyter con el código principal del análisis.
+
 ├── analisis_geografico.ipynb:     Notebook de Jupyter con el código del análisis geográfico (opcional).
+
 ├── README.md:                    Documentación del proyecto.
+
 ├── data/
+
 │   ├── tienda_1.csv:             Datos de ventas de la Tienda 1.
+
 │   ├── tienda_2.csv:             Datos de ventas de la Tienda 2.
+
 │   ├── tienda_3.csv:             Datos de ventas de la Tienda 3.
+
 │   └── tienda_4.csv:             Datos de ventas de la Tienda 4.
+
 └── informes/
+
 │   └── informe_venta_tienda.md:   Informe final recomendando qué tienda vender.
+
 └── ... (otros archivos o directorios si los hubiera)
+
 
 
 ## Tecnologías Usadas
