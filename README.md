@@ -36,7 +36,7 @@ El proyecto se divide en varias etapas, abarcando la importación y limpieza de 
 
 ## Tecnologías Usadas
 
-* **Python 3**
+* **Python **
 * **Pandas:** Para la manipulación y análisis de datos tabulares.
 * **Matplotlib:** Para la creación de gráficos básicos y personalizables.
 * **Seaborn:** Para la creación de gráficos estadísticos avanzados y visualizaciones informativas.
