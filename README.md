@@ -14,8 +14,6 @@ El proyecto se divide en varias etapas, abarcando la importación y limpieza de 
 
 ├── analisis_de_tiendas.ipynb:      Notebook de Jupyter con el código principal del análisis.
 
-├── analisis_geografico.ipynb:     Notebook de Jupyter con el código del análisis geográfico (opcional).
-
 ├── README.md:                    Documentación del proyecto.
 
 ├── data/
@@ -42,8 +40,7 @@ El proyecto se divide en varias etapas, abarcando la importación y limpieza de 
 * **Pandas:** Para la manipulación y análisis de datos tabulares.
 * **Matplotlib:** Para la creación de gráficos básicos y personalizables.
 * **Seaborn:** Para la creación de gráficos estadísticos avanzados y visualizaciones informativas.
-* **(Opcional) Folium:** Para la creación de mapas interactivos en el análisis geográfico.
-
+  
 ## Fases del Proyecto
 
 1.  **Importación de Datos:** Se cargaron los datos de ventas de cada tienda desde archivos CSV utilizando la biblioteca Pandas.
@@ -53,7 +50,7 @@ El proyecto se divide en varias etapas, abarcando la importación y limpieza de 
 5.  **Productos Más y Menos Vendidos:** Se identificaron los productos con mayor y menor volumen de ventas en cada tienda, proporcionando información detallada sobre las preferencias del consumidor a nivel de producto.
 6.  **Costos de Envío Promedio:** Se calculó el costo promedio de envío para cada tienda, un factor relevante para la rentabilidad y la experiencia del cliente.
 7.  **Informe de Recomendación de Venta:** Se sintetizaron todos los hallazgos en un informe final, recomendando la tienda más adecuada para una posible venta (basándose en el peor rendimiento financiero) y justificando la decisión con datos y análisis.
-8.  **(Opcional) Análisis Geográfico de Ventas:** Utilizando las columnas de latitud y longitud, se exploró la distribución geográfica de las ventas de cada tienda mediante gráficos de dispersión y mapas de calor. También se realizó un análisis preliminar de la posible influencia de la ubicación en el precio promedio y las calificaciones.
+8.  ** Análisis Geográfico de Ventas:** Utilizando las columnas de latitud y longitud, se exploró la distribución geográfica de las ventas de cada tienda mediante gráficos de dispersión y mapas de calor. También se realizó un análisis preliminar de la posible influencia de la ubicación en el precio promedio y las calificaciones.
 
 ## Cómo Ejecutar el Código
 
@@ -69,14 +66,9 @@ El proyecto se divide en varias etapas, abarcando la importación y limpieza de 
     ```bash
     pip install pandas matplotlib seaborn jupyter
     ```
-    (Si planeas realizar el análisis geográfico avanzado con Folium, también instala:)
-    ```bash
-    pip install folium
-    ```
-4.  **Ejecuta los notebooks de Jupyter:**
+4.  **Ejecuta el notebook de Jupyter:**
     ```bash
     jupyter notebook analisis_de_tiendas.ipynb
-    jupyter notebook analisis_geografico.ipynb
     ```
     O abre los archivos `.ipynb` en tu entorno de desarrollo de Python preferido.
 
@@ -88,15 +80,12 @@ El proyecto se divide en varias etapas, abarcando la importación y limpieza de 
 * Se identificaron los productos más y menos vendidos para cada tienda, revelando patrones de demanda específicos.
 * La **Tienda 4** tiene el costo de envío promedio más bajo, pero también los ingresos totales más bajos.
 * **Recomendación de Venta:** Basándose en el análisis, se recomienda **vender la Tienda 4** debido a su menor rendimiento financiero.
-* **(Opcional) Análisis Geográfico:** Las visualizaciones geográficas proporcionaron información sobre la distribución espacial de las ventas de cada tienda, sugiriendo posibles áreas de influencia y concentración.
+* ** Análisis Geográfico:** Las visualizaciones geográficas proporcionaron información sobre la distribución espacial de las ventas de cada tienda, sugiriendo posibles áreas de influencia y concentración.
 
 ## ¡Contribuciones son bienvenidas!
 
 Si tienes ideas para mejorar el análisis o explorar aspectos adicionales de los datos, ¡no dudes en abrir un issue o enviar un pull request!
 
-## Licencia
-
-Este proyecto está bajo la licencia [AÑADE AQUÍ EL TIPO DE LICENCIA, POR EJEMPLO: MIT]. Consulta el archivo `LICENSE` para obtener más detalles.
 
 ## ¡Gracias!
 
